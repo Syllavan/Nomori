@@ -1,0 +1,130 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp G:/Nomori Cloud/Library/Il2cppBuildCache/Windows/x64/Native/GameAssembly.dll",
+      "Action": "\"G:\\Unity Editors\\2020.3.1f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"WindowsDesktop\" --architecture=\"x64\" --configuration=\"Release\" --outputpath=\"G:\\Nomori Cloud\\Library/Il2cppBuildCache/Windows/x64\\Native\\GameAssembly.dll\" --cachedirectory=\"G:\\Nomori Cloud\\Assets\\..\\Library/il2cpp_cache\" --baselib-directory=\"G:/Unity Editors/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport\\Variations\\win64_nondevelopment_il2cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"G:/Unity Editors/2020.3.1f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"G:/Nomori Cloud/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"G:/Nomori Cloud/Library/Il2cppBuildCache/Windows/x64/il2cppOutput\"",
+      "Inputs": [
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/System.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "G:/Nomori Cloud/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "G:/Nomori Cloud/Library/Il2cppBuildCache/Windows/x64/Native/GameAssembly.dll"
+      ],
+      "TargetDirectories": [
+        "G:/Nomori Cloud/Library/Il2cppBuildCache/Windows/x64/il2cppOutput"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
