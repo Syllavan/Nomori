@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 354387061}
   - component: {fileID: 354387063}
   - component: {fileID: 354387062}
+  - component: {fileID: 354387064}
   m_Layer: 0
   m_Name: Mud Noise
   m_TagString: Untagged
@@ -150,9 +151,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354387060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_LocalPosition: {x: 0, y: -0.112, z: 0}
+  m_LocalScale: {x: 5, y: 0.5, z: 5}
+  m_Children:
+  - {fileID: 1401330846}
   m_Father: {fileID: 1305823441}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -175,14 +177,14 @@ MonoBehaviour:
   m_canCountAsBone: 1
   m_noiseType: 0
   m_coordinateSystem: 0
-  m_boundaryShape: 0
+  m_boundaryShape: 1
   m_boundaryBlend: 0
   m_boundaryRadius: 0.4
   m_boundaryAngle: 45
   m_offset: {x: 0, y: 0, z: 0}
-  m_baseOctaveSize: {x: 1, y: 1, z: 1}
-  m_threshold: 0.5
-  m_thresholdFade: 0
+  m_baseOctaveSize: {x: 0.2, y: 1, z: 0.2}
+  m_threshold: 0.282
+  m_thresholdFade: 0.143
   m_numOctaves: 2
   m_octaveOffsetFactor: 0.5
   m_lockPosition: 0
@@ -207,6 +209,19 @@ MonoBehaviour:
   m_splatSize: 1
   m_blendTightness: 0
   m_contributeMaterial: 1
+--- !u!114 &354387064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354387060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62fbaaa531e25548a7294608aa4d4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: {x: 0, y: 0, z: 0.4}
 --- !u!1001 &552212842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -483,7 +498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253692526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 75, z: 0}
+  m_LocalPosition: {x: 103, y: 491, z: -813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -718,33 +733,33 @@ MonoBehaviour:
   ShowGpuMemoryUsage: 0
   AutoAdjustBudgetsToHighWaterMarks: 0
   AutoAdjustBudgetsToHighWaterMarksMarginPercent: 16
-  VoxelDensity: 8
+  VoxelDensity: 24.2
   ForceEvaluateAllBrushes: 0
   Enable2dMode: 0
   SurfaceShift: 0
-  RenderMode: 2
+  RenderMode: 1
   MeshingMode: 0
-  ShowAdvancedNormalOptions: 0
+  ShowAdvancedNormalOptions: 1
   SmoothNormalBlurRelative: 0.05
   SmoothNormalBlurAbsolute: 0
   NormalQuantization: 0
   Normal2dFade: 0
   Normal2dStrength: 1
-  EnableAutoSmoothing: 0
+  EnableAutoSmoothing: 1
   AutoSmoothingMaxAngle: 30
   EnableSmoothCorner: 0
   SmoothCornerSubdivision: 2
   SmoothCornerNormalBlur: 0.02
   SmoothCornerFade: 0
-  ShowAdvancedSplatOptions: 0
-  SplatSize: 1
-  SplatSizeJitter: 0
-  SplatNormalShift: 0
+  ShowAdvancedSplatOptions: 1
+  SplatSize: 2.6
+  SplatSizeJitter: 0.386
+  SplatNormalShift: 0.014
   SplatNormalShiftJitter: 1
   SplatColorJitter: 0
-  SplatPositionJitter: 0
-  SplatRotationJitter: 0
-  SplatOrientationJitter: 0
+  SplatPositionJitter: 0.427
+  SplatRotationJitter: 0.874
+  SplatOrientationJitter: 0.142
   SplatOriginalNormalBlend: 1
   SplatJitterNoisiness: 1
   SplatCameraFacing: 0
@@ -752,7 +767,7 @@ MonoBehaviour:
   SplatShadowsMatchCameraFacing: 0
   SplatScreenSpaceFlattening: 1
   SurfaceNetsDualQuadsBlend: 0
-  ShowAdvancedMeshingOptions: 0
+  ShowAdvancedMeshingOptions: 1
   SurfaceNetsHighAccuracyMode: 0
   DualContouringDualQuadsBlend: 0
   DualContouringRelaxation: 0
@@ -760,12 +775,12 @@ MonoBehaviour:
   CastShadows: 1
   ReceiveShadows: 1
   SharedMaterial: {fileID: 0}
-  m_masterColor: {r: 1, g: 1, b: 1, a: 1}
+  m_masterColor: {r: 0.6685208, g: 0.7830189, b: 0.7734774, a: 1}
   m_masterEmission: {r: 1, g: 1, b: 1, a: 1}
   m_masterMetallic: 1
   m_masterSmoothness: 1
-  RenderMaterialMesh: {fileID: 2100000, guid: 91d033ca3ae0a8942af3a7d5ad0c8edd, type: 2}
-  RenderMaterialSplats: {fileID: 2100000, guid: 70d55dc02aa47694bb8741520322228c,
+  RenderMaterialMesh: {fileID: 2100000, guid: 62d1281f6e6ca6c4abeb566741c360ae, type: 2}
+  RenderMaterialSplats: {fileID: 2100000, guid: bce996bf2c9d2954cb774fc16a6e846f,
     type: 2}
   RenderMaterialDecal: {fileID: 2100000, guid: 1ff34c3e08ceb6c4ea2c962cc062ae47, type: 2}
   UseRayMarchedRenderMaterial: 0
@@ -831,13 +846,85 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305823439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 435, z: 0}
-  m_LocalScale: {x: 106.74466, y: 106.74466, z: 106.74466}
+  m_LocalPosition: {x: 0, y: 188, z: 0}
+  m_LocalScale: {x: 517.6866, y: 904.45026, z: 517.6866}
   m_Children:
   - {fileID: 354387061}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1401330845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401330846}
+  - component: {fileID: 1401330848}
+  - component: {fileID: 1401330847}
+  m_Layer: 0
+  m_Name: Mud Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1401330846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401330845}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.205, z: 0}
+  m_LocalScale: {x: 4.2293, y: 0.41726696, z: 4.2293}
+  m_Children: []
+  m_Father: {fileID: 354387061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401330847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401330845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb0eba57e6c8fa4ebbc301fe9323f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 1
+  m_blend: 0
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_radius: 0.5
+  PivotShift: 0
+--- !u!114 &1401330848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401330845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 1
 --- !u!1 &1463991781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,6 +1104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CloudMeshV5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4c77ec9793625f469bdff8a382d1f09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4c77ec9793625f469bdff8a382d1f09, type: 3}
