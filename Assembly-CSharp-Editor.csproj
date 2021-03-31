@@ -287,6 +287,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>G:\Unity Editors\2020.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>G:\Unity Editors\2020.3.1f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
@@ -721,6 +724,18 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{944C90D3-9321-A305-2EF3-680E90C6743F}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="MudBun.Customization.Editor.csproj">
+      <Project>{E1CEEAE9-1569-CBFC-AC74-F13CA9F7F669}</Project>
+      <Name>MudBun.Customization.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MudBun.csproj">
+      <Project>{C3012B83-E9DC-C9CE-C53B-26FF0545D4AD}</Project>
+      <Name>MudBun</Name>
+    </ProjectReference>
+    <ProjectReference Include="MudBun.Editor.csproj">
+      <Project>{3013186A-0713-3989-B117-E3C85CA462B7}</Project>
+      <Name>MudBun.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

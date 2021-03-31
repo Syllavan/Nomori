@@ -700,6 +700,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="MudBun.Customization.Editor.csproj">
+      <Project>{E1CEEAE9-1569-CBFC-AC74-F13CA9F7F669}</Project>
+      <Name>MudBun.Customization.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MudBun.csproj">
+      <Project>{C3012B83-E9DC-C9CE-C53B-26FF0545D4AD}</Project>
+      <Name>MudBun</Name>
+    </ProjectReference>
+    <ProjectReference Include="MudBun.Editor.csproj">
+      <Project>{3013186A-0713-3989-B117-E3C85CA462B7}</Project>
+      <Name>MudBun.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
