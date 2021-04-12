@@ -247,9 +247,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6686}
+      Script: {instanceID: 6350}
     - Class: 114
-      Script: {instanceID: 21020}
+      Script: {instanceID: 6688}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1423,6 +1423,12 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineEditorResources
   - hash:
       serializedVersion: 2
+      Hash: afa5c825a2c462220cfb908cdd859647
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MudBunShellPlacer
+  - hash:
+      serializedVersion: 2
       Hash: ec690bec6cd189999b33cdccfbd39574
     assemblyName: MudBun.dll
     namespaceName: MudBun
@@ -1475,12 +1481,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: afa5c825a2c462220cfb908cdd859647
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MudBunShellPlacer
   platform: 19
   scenePathNames:
   - Assets/FluffTest.unity

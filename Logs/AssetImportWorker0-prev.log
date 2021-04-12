@@ -15,11 +15,11 @@ G:/Nomori Cloud
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62166
+51028
 Successfully changed project path to: G:/Nomori Cloud
 G:/Nomori Cloud
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 620.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 97.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path G:/Unity Editors/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1516 +36,338 @@ Initialize mono
 Mono path[0] = 'G:/Unity Editors/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity Editors/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'G:/Unity Editors/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity Editors/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: G:/Unity Editors/2020.3.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002650 seconds.
+Registered in 0.001880 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 94.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.897 seconds
+- Completed reload, in  1.907 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001438 seconds.
+Registered in 0.002483 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 95.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.586 seconds
+- Completed reload, in  1.709 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 11.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.5 MB.
-System memory in use after: 138.4 MB.
+System memory in use before: 142.7 MB.
+System memory in use after: 138.6 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3102.
-Total: 7.553500 ms (FindLiveObjects: 0.739400 ms CreateObjectMapping: 0.475700 ms MarkObjects: 4.133300 ms  DeleteObjects: 2.202200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
-  artifactKey: Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif using Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b611d6d0740e3d11725509068f48f829') in 0.189267 seconds
-  Import took 0.197904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Coziness2LUT_32.png
-  artifactKey: Guid(2390c384c048d9b43836904167172c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Coziness2LUT_32.png using Guid(2390c384c048d9b43836904167172c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da8cabaeedb4700f990a2b1cb2525bd') in 0.210021 seconds
-  Import took 0.218532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Horror2LUT_32.png
-  artifactKey: Guid(3ae01bc4fcb67274582f6d61be50ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Horror2LUT_32.png using Guid(3ae01bc4fcb67274582f6d61be50ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1569b3427c51a8c5b68d0e1ad41d41b9') in 0.089142 seconds
-  Import took 0.100424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudSphereIcon.png
-  artifactKey: Guid(f9793d4d853ac1745b806b665335a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudSphereIcon.png using Guid(f9793d4d853ac1745b806b665335a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645448fd9484dd8a8e6db185ae8b487f') in 0.043119 seconds
-  Import took 0.142831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024685 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Movie4LUT_32.png
-  artifactKey: Guid(480965f2f23fbe04ea6f08a6739900c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Movie4LUT_32.png using Guid(480965f2f23fbe04ea6f08a6739900c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773467e1c8d05f04102c7bb04070d02') in 0.749998 seconds
-  Import took 0.763563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Lollipop_LUT_32.png
-  artifactKey: Guid(51d0027f29f58ea48aeb0735cb47cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Lollipop_LUT_32.png using Guid(51d0027f29f58ea48aeb0735cb47cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276c87c8afa6f652707c17c9c32cb431') in 0.103330 seconds
-  Import took 0.116773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001334 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
-  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a57a31f58e7059085dbfbfa6864a110') in 0.070958 seconds
-  Import took 0.089782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudOnionIcon.png
-  artifactKey: Guid(63de3a25d802034419268887044e25d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudOnionIcon.png using Guid(63de3a25d802034419268887044e25d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd99e692566a218294fa063fb5f1427d') in 0.074618 seconds
-  Import took 0.086326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024449 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/BWcontrastLUT_32.png
-  artifactKey: Guid(6f1e98e84d5efcb4db64b180cfa0dc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/BWcontrastLUT_32.png using Guid(6f1e98e84d5efcb4db64b180cfa0dc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e125438fd6ce22e423ebdd8f2242d131') in 0.103653 seconds
-  Import took 0.152149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ceaaa4de682a1f067bb19e008a30c62') in 0.090991 seconds
-  Import took 0.122562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000870 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif using Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91468e6c858e1dfc57e5e73fd8eb5f1') in 0.047707 seconds
-  Import took 0.057480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000901 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Coziness2LUT_32.png
-  artifactKey: Guid(d6baee6a63dfed241a6b545eb8cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Coziness2LUT_32.png using Guid(d6baee6a63dfed241a6b545eb8cde703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e18fae892ac2381dbedc14e1b0ece7') in 0.066497 seconds
-  Import took 0.075605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Movie2LUT_32.png
-  artifactKey: Guid(d0a7d1346081d3948b2c2e75168a2ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Movie2LUT_32.png using Guid(d0a7d1346081d3948b2c2e75168a2ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2bed35868019d69eead1c1ca147603') in 0.088466 seconds
-  Import took 0.097661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/URP PostProcessing Profiles/Textures/lens.png
-  artifactKey: Guid(1fd16acc533eaa34382de697c36d0900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Textures/lens.png using Guid(1fd16acc533eaa34382de697c36d0900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6478ae53b1189e3b5baf92da82f7d03d') in 0.058728 seconds
-  Import took 0.074146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002965 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudCurveFullIcon.png
-  artifactKey: Guid(65e5edd7a5e6a9b4e80c70605c0c253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudCurveFullIcon.png using Guid(65e5edd7a5e6a9b4e80c70605c0c253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd65d675d3bf4cf6dc67591c3c1ecea') in 0.161412 seconds
-  Import took 0.171311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079901 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/AutumnLUT_32.png
-  artifactKey: Guid(12c0cd9f2bb14a849bbd64db40e5d66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/AutumnLUT_32.png using Guid(12c0cd9f2bb14a849bbd64db40e5d66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a939b89cbdc858603198c96769585a24') in 1.247893 seconds
-  Import took 1.263572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000630 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/IceLUT_32.png
-  artifactKey: Guid(441af3a100aae4847892f07817fde13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/IceLUT_32.png using Guid(441af3a100aae4847892f07817fde13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257336ed8bb633f44c1dbf35a52381cd') in 0.400808 seconds
-  Import took 0.412654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000782 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/LogLUT_32.png
-  artifactKey: Guid(f6d31c71403095b4591671d3edac21f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/LogLUT_32.png using Guid(f6d31c71403095b4591671d3edac21f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a328b9220d206daf402cd2d59ea010f') in 0.487233 seconds
-  Import took 0.504881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/RussianLUT_32.png
-  artifactKey: Guid(26babcb5b387f6b438daf67b70fcafff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/RussianLUT_32.png using Guid(26babcb5b387f6b438daf67b70fcafff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb606567d2ae9afd6269a51020d438') in 0.614255 seconds
-  Import took 0.625523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000937 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
-  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bcb352f0a9c46413f9b4c53a92566d') in 0.900108 seconds
-  Import took 0.912310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/PurpleLUT_32.png
-  artifactKey: Guid(9f1a75a88d81ed54ca19d312228695a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/PurpleLUT_32.png using Guid(9f1a75a88d81ed54ca19d312228695a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd78bddf0fb6194305ff0c478e3b528') in 0.133644 seconds
-  Import took 0.144185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/SepiaLUT_32.png
-  artifactKey: Guid(6a4e125207397fb49a4b19a8d8d64b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/SepiaLUT_32.png using Guid(6a4e125207397fb49a4b19a8d8d64b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecc41169566d73e60b5682b97a5eea5') in 0.507259 seconds
-  Import took 0.518726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.293908 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/PurpleLUT_32.png
-  artifactKey: Guid(9f1a75a88d81ed54ca19d312228695a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/PurpleLUT_32.png using Guid(9f1a75a88d81ed54ca19d312228695a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd78bddf0fb6194305ff0c478e3b528') in 0.017625 seconds
-  Import took 0.047344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001769 seconds.
-  path: Assets/TutorialInfo/Icons/UniversalIcon.png
-  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16c82d60ecc92ac19919df256a528a6') in 0.078253 seconds
-  Import took 0.088833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/MudBun/Examples/HDRP/Sky Island/Leaf Texture.png
-  artifactKey: Guid(a847bebb4f8becd4088b88ed64b8e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Sky Island/Leaf Texture.png using Guid(a847bebb4f8becd4088b88ed64b8e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b33be9d6978a54e12cba8af7f3c4de1') in 0.061705 seconds
-  Import took 0.109385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/MudBun/Texture/blue-noise-256x256.png
-  artifactKey: Guid(f240bbb7854046345b218811e5681a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Texture/blue-noise-256x256.png using Guid(f240bbb7854046345b218811e5681a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfecbd49792fc9485031a666b264021c') in 0.131359 seconds
-  Import took 0.150691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudNoiseVolumeIcon.png
-  artifactKey: Guid(6451025c9f95bb14f81072a28d94d786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudNoiseVolumeIcon.png using Guid(6451025c9f95bb14f81072a28d94d786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749991841ec7e6590a74ced7e1a2a69d') in 0.046643 seconds
-  Import took 0.060032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003139 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Warm2_LUT_32.png
-  artifactKey: Guid(a60de0cd968c529409871fc86e4ba65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Warm2_LUT_32.png using Guid(a60de0cd968c529409871fc86e4ba65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96fe6d76d2d266a07c845d4812c4a2d') in 0.111848 seconds
-  Import took 0.123092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudMaterialIcon.png
-  artifactKey: Guid(020998f1912df8440892335c5bc55035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudMaterialIcon.png using Guid(020998f1912df8440892335c5bc55035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eadd756a0fd96622d8d73ea6b8aed6e') in 0.103428 seconds
-  Import took 0.114848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
-  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddbb67dfd12b73fc525e874212a581f') in 0.043774 seconds
-  Import took 0.053986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
-  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283e7b2b5cdaa35d732a6dc45cfa3688') in 0.040350 seconds
-  Import took 0.056931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
-  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aac5680e7d29288a9edd84e457c57e') in 0.494894 seconds
-  Import took 0.504815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/RussianLUT_32.png
-  artifactKey: Guid(91e1c9464e49a3a4baac51e668baa8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/RussianLUT_32.png using Guid(91e1c9464e49a3a4baac51e668baa8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77197acc9a2dc9e1a6dc8bec4d05a585') in 0.413056 seconds
-  Import took 0.477474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082111 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/crazyLUT_32.png
-  artifactKey: Guid(5c3f8f167e21c05438bf102eeca3bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/crazyLUT_32.png using Guid(5c3f8f167e21c05438bf102eeca3bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f22cfe1e9c220e5e237a2fb0bd6af6') in 0.088671 seconds
-  Import took 0.198658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
-  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d40fd68aca5b1075e9a55834f5cc5e') in 0.088781 seconds
-  Import took 0.153352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/TutorialInfo/Icons/Help_Icon.png
-  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d480ad221a369f71fdf2682a14560df') in 0.207540 seconds
-  Import took 0.220231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/LomonewLUT_32.png
-  artifactKey: Guid(37d03f6d7adfcac48affbf2d93a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/LomonewLUT_32.png using Guid(37d03f6d7adfcac48affbf2d93a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2c832789f1d6e67605952ba5355a8b') in 0.093256 seconds
-  Import took 0.108228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003541 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudTwistIcon.png
-  artifactKey: Guid(d5244e4515a0afe49a01a7785dd61763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudTwistIcon.png using Guid(d5244e4515a0afe49a01a7785dd61763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca31109be9e7a1b468e40bc2d77a88d') in 0.067830 seconds
-  Import took 0.079372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudBoxIcon.png
-  artifactKey: Guid(00670ac6c2f92b4439e88bf26075763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudBoxIcon.png using Guid(00670ac6c2f92b4439e88bf26075763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2309d9212c3e689e88dac60ef9c7089d') in 0.095041 seconds
-  Import took 0.109396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031203 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Oce_LUT_32.png
-  artifactKey: Guid(d6db82577e9088b40b4c5710c44550ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Oce_LUT_32.png using Guid(d6db82577e9088b40b4c5710c44550ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1097e2d062b3f582873bd6987ee33580') in 0.093540 seconds
-  Import took 0.115286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Horror_LUT.png
-  artifactKey: Guid(a8133b6fcbc52704ca5a034b3288f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Horror_LUT.png using Guid(a8133b6fcbc52704ca5a034b3288f705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3b9e8afddb5d09a50de23db7765894') in 0.126457 seconds
-  Import took 0.142060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Horror2LUT_32.png
-  artifactKey: Guid(6afd6f52995880f46aebe56598f83518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Horror2LUT_32.png using Guid(6afd6f52995880f46aebe56598f83518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d06aeb04bad9782857e753dd998cc03') in 0.062442 seconds
-  Import took 0.071438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000706 seconds.
-  path: Assets/URP PostProcessing Profiles/Textures/camera1.png
-  artifactKey: Guid(81f46268e7fdbe04ab9bbd853334492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Textures/camera1.png using Guid(81f46268e7fdbe04ab9bbd853334492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32d71e92ad44352da0ed625de5dbffc') in 0.541082 seconds
-  Import took 0.552033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/NeutralLUT_33.png
-  artifactKey: Guid(574b1a7c00657ca49b8ec9c70f6414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/NeutralLUT_33.png using Guid(574b1a7c00657ca49b8ec9c70f6414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829111a3d8bc010175cf97b44f1ef871') in 0.086374 seconds
-  Import took 0.103159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/movie4LUT_32.png
-  artifactKey: Guid(2b698f1b5f9aa944899012a28b478cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/movie4LUT_32.png using Guid(2b698f1b5f9aa944899012a28b478cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636298bef7a4b907053b75d5b11ed0f4') in 0.066323 seconds
-  Import took 0.079140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Autumn2LUT_32.png
-  artifactKey: Guid(ae9a8f71956435b4cb33ef1a2a0eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Autumn2LUT_32.png using Guid(ae9a8f71956435b4cb33ef1a2a0eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f26aba3594514425bf76b0622da73e7') in 0.058198 seconds
-  Import took 0.067866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/BWselLUT_32.png
-  artifactKey: Guid(e689d9b019b89c145beafa89b8616fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/BWselLUT_32.png using Guid(e689d9b019b89c145beafa89b8616fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61069c7042a06e10d4eb9e32474efdf2') in 0.092408 seconds
-  Import took 0.107893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudQuantizeIcon.png
-  artifactKey: Guid(6e0af69153a23e94a92ddd0e39c40bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudQuantizeIcon.png using Guid(6e0af69153a23e94a92ddd0e39c40bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128a7a9caaedaacf2a9fdb2e0080fee6') in 0.040032 seconds
-  Import took 0.061976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006255 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/CozinessLUT_32.png
-  artifactKey: Guid(a68ed9943f0c7fd44b873cd886fae3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/CozinessLUT_32.png using Guid(a68ed9943f0c7fd44b873cd886fae3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fc9692f6a1c537314167ddaf2b2845') in 0.098558 seconds
-  Import took 0.111642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Movie2LUT_32.png
-  artifactKey: Guid(be22ce3f7af51b144abeceeece1ec660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Movie2LUT_32.png using Guid(be22ce3f7af51b144abeceeece1ec660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531d0a4223e25e50069422552190d312') in 0.024660 seconds
-  Import took 0.033902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Movie3LUT_32.png
-  artifactKey: Guid(396f5d4397260ff44a7f2353b8381b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Movie3LUT_32.png using Guid(396f5d4397260ff44a7f2353b8381b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96afea7b599535888826c2752f4189f') in 0.060630 seconds
-  Import took 0.067703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/CozinessLUT_32.png
-  artifactKey: Guid(8fffa1992e044ca43a3734cf149ee169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/CozinessLUT_32.png using Guid(8fffa1992e044ca43a3734cf149ee169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e767df875e5cdf77b664f0e0e82cffd') in 0.070710 seconds
-  Import took 0.077341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif using Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358ede895c0e1632f44b88207d2f09c1') in 0.046527 seconds
-  Import took 0.053939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
-  artifactKey: Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif using Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bbe16560254142b57960feac7f534') in 0.129962 seconds
-  Import took 0.152996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001345 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/ViceLUT_32.png
-  artifactKey: Guid(fb7abafb89d678e4e955087a3550a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/ViceLUT_32.png using Guid(fb7abafb89d678e4e955087a3550a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c922749968f7098f44ca829543a140') in 0.073773 seconds
-  Import took 0.128235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
-  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c68eba837b4f0739994beb8857ec2cb') in 0.075877 seconds
-  Import took 0.089083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/DarkLUT_32.png
-  artifactKey: Guid(76ab2c93b9b7fe443a6946cea06da2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/DarkLUT_32.png using Guid(76ab2c93b9b7fe443a6946cea06da2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f32287cc28b529c8b7cf8e4e9abf859') in 0.076640 seconds
-  Import took 0.086318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/URP PostProcessing Profiles/Textures/bloody.png
-  artifactKey: Guid(ffb906be92c8690419d21d2d491cb2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Textures/bloody.png using Guid(ffb906be92c8690419d21d2d491cb2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c8792674738055009cadcf19684a62') in 0.104733 seconds
-  Import took 0.114071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000687 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Horror3LUT_32.png
-  artifactKey: Guid(cdbe5de45ba363143a49bdbcf92db0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Horror3LUT_32.png using Guid(cdbe5de45ba363143a49bdbcf92db0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbde35da1d40e7550b3979301b02f4b') in 0.072290 seconds
-  Import took 0.081825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/WesternLUT_32.png
-  artifactKey: Guid(33777c793840d414aa2c8fa05be17d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/WesternLUT_32.png using Guid(33777c793840d414aa2c8fa05be17d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec5f26ce12a2ee27976249f39c717d2') in 0.056163 seconds
-  Import took 0.065831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Vice3LUT_32.png
-  artifactKey: Guid(67872d54908d72b4f843261ef1930ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Vice3LUT_32.png using Guid(67872d54908d72b4f843261ef1930ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e36920cd05f5a68325697639396360c') in 0.062321 seconds
-  Import took 0.071938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/GreenParadiseLUT_32.png
-  artifactKey: Guid(45478cad60b4e3a41bdabdde1fd4c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/GreenParadiseLUT_32.png using Guid(45478cad60b4e3a41bdabdde1fd4c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa0303a8f778438259420a11fc290e') in 0.102187 seconds
-  Import took 0.114077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudGroupIcon.png
-  artifactKey: Guid(e2ee3d73d026da44ba43d636f2e35fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudGroupIcon.png using Guid(e2ee3d73d026da44ba43d636f2e35fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a7b989684a1269cfcac41f1c9ee49a') in 0.044429 seconds
-  Import took 0.054274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/DarkLUT_32.png
-  artifactKey: Guid(c3c39d20658041944b7980a7a21ec5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/DarkLUT_32.png using Guid(c3c39d20658041944b7980a7a21ec5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8c2e179e0a75ca9ac07951b1a47cee') in 0.153986 seconds
-  Import took 0.326870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001190 seconds.
-  path: Assets/MudBun/Examples/HDRP/Cloud/Cloud.png
-  artifactKey: Guid(0865c46899af1424980b635ef6de3ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Cloud/Cloud.png using Guid(0865c46899af1424980b635ef6de3ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0b7592c26032d1b13df361c49f7caf') in 0.029995 seconds
-  Import took 0.042184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/MudBun/Texture/MultiLeaf.png
-  artifactKey: Guid(b970af692e90c1048bc00c035e3dd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Texture/MultiLeaf.png using Guid(b970af692e90c1048bc00c035e3dd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee2f2c1eb01cfd1e3c6dce97174836e') in 0.029763 seconds
-  Import took 0.040149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/IceLUT_32.png
-  artifactKey: Guid(0ef320aa6845076468295de80886ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/IceLUT_32.png using Guid(0ef320aa6845076468295de80886ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c409646f626265fdf80c488ffbf31fc6') in 0.034715 seconds
-  Import took 0.045107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudParticlesIcon.png
-  artifactKey: Guid(5fe7312cf51c0aa40ba2eefee59bedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudParticlesIcon.png using Guid(5fe7312cf51c0aa40ba2eefee59bedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67c2f5a568cb9fd85aef62390ae0a5b') in 0.039360 seconds
-  Import took 0.057659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001770 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/vice3LUT_32.png
-  artifactKey: Guid(2749147ab15a797468733a4f68688ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/vice3LUT_32.png using Guid(2749147ab15a797468733a4f68688ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900f423af6ce763568f907eb05280a49') in 0.070154 seconds
-  Import took 0.080403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
-  artifactKey: Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif using Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6384fbf7974b29d9d247dc3f2426144a') in 0.038414 seconds
-  Import took 0.051563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
-  artifactKey: Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif using Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8097028bc5ea94f1d9e5d44c8d85ae0e') in 0.083298 seconds
-  Import took 0.093177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001991 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Russian2LUT_32.png
-  artifactKey: Guid(5b4e1b1adc1c0a946849530c3486a526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Russian2LUT_32.png using Guid(5b4e1b1adc1c0a946849530c3486a526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3735a1654f51e5b74c10d3ee8654493') in 0.110999 seconds
-  Import took 0.122530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/horror_LUT.png
-  artifactKey: Guid(6ece7d54efd9cad44828a82e920d64ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/horror_LUT.png using Guid(6ece7d54efd9cad44828a82e920d64ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edb2b3e77cdcca5a1b1c12d6f270761') in 0.219400 seconds
-  Import took 0.231366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Drama2LUT_32.png
-  artifactKey: Guid(850123d8bd2bc6a429ad506bfef02afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Drama2LUT_32.png using Guid(850123d8bd2bc6a429ad506bfef02afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717de890cfa0bbb1004bfe36cbc1055') in 0.173458 seconds
-  Import took 0.181000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
-  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7583f6e1241fff4997bf779cc02071d') in 0.022458 seconds
-  Import took 0.028677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/WesternLUT_32.png
-  artifactKey: Guid(b7b3c17d58b414646a424a3e55785fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/WesternLUT_32.png using Guid(b7b3c17d58b414646a424a3e55785fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb84e1f82028df83c672208afaec7a8') in 0.072860 seconds
-  Import took 0.085890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/DramaLUT_32.png
-  artifactKey: Guid(abe37d682befd3d47971c25a1a9ab3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/DramaLUT_32.png using Guid(abe37d682befd3d47971c25a1a9ab3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f194adc11e61e391b4169c9d762e2345') in 0.067639 seconds
-  Import took 0.101659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060768 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Heavy_LUT_32.png
-  artifactKey: Guid(f753631228cc05e4da2c5d0e87d851b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Heavy_LUT_32.png using Guid(f753631228cc05e4da2c5d0e87d851b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93efcb4aeb75baa1a597c5ff6e8f3804') in 0.043666 seconds
-  Import took 0.051423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudFishEyeIcon.png
-  artifactKey: Guid(b9a2814e76821984095c279a8308f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudFishEyeIcon.png using Guid(b9a2814e76821984095c279a8308f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94962f3cb1871a07250ac11a31ac3deb') in 0.030705 seconds
-  Import took 0.037820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/UeLUT_32.png
-  artifactKey: Guid(ae8634b25cbc81c4cb0952ba41337910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/UeLUT_32.png using Guid(ae8634b25cbc81c4cb0952ba41337910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f051f07b969f035319bab146e1f4c6fd') in 0.090690 seconds
-  Import took 0.096969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Russian2LUT_32.png
-  artifactKey: Guid(9f9764eda1da9af43bcb9726fb962c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Russian2LUT_32.png using Guid(9f9764eda1da9af43bcb9726fb962c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373d5368dd0488a6a764085887932689') in 0.044936 seconds
-  Import took 0.051086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
-  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dfeb5fbce22deb0b76399cdfd82117') in 0.029761 seconds
-  Import took 0.036984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudConeIcon.png
-  artifactKey: Guid(9d124cde30b471d478492c68458202e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudConeIcon.png using Guid(9d124cde30b471d478492c68458202e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a17fb636aa7e5a60ca3d632e88b6c1a') in 0.032717 seconds
-  Import took 0.040734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
-  artifactKey: Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif using Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd973911a4b40515af267f67cd4e238db') in 0.117891 seconds
-  Import took 0.137685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/MudBun/Examples/URP/Mossy Rock/Moss Texture.png
-  artifactKey: Guid(8170343628b1d234fbd553215f608df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/URP/Mossy Rock/Moss Texture.png using Guid(8170343628b1d234fbd553215f608df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576cd724f6a36e06379e25fbbe09513') in 0.033874 seconds
-  Import took 0.047411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002083 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
-  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef38662f41b025291a3701adb10f65e') in 0.295389 seconds
-  Import took 0.304769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/URP PostProcessing Profiles/Textures/Ice.png
-  artifactKey: Guid(a0987903b51912342b78aa1f4645fc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Textures/Ice.png using Guid(a0987903b51912342b78aa1f4645fc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b749f4b86fd793362e6c1ed5f2c701') in 0.205947 seconds
-  Import took 0.217546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Old_LUT_32.png
-  artifactKey: Guid(de094554db0bcbb4cab5e3a0ae5ab5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Old_LUT_32.png using Guid(de094554db0bcbb4cab5e3a0ae5ab5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af1d25356f7624fdd913c922ff69bb0') in 0.042082 seconds
-  Import took 0.048032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/NightLUT_32.png
-  artifactKey: Guid(4560fceb7d189db43934d683e0ba6743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/NightLUT_32.png using Guid(4560fceb7d189db43934d683e0ba6743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5acd4284f1874dc5cf664f6d1e7d900') in 0.054434 seconds
-  Import took 0.061946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/NeutralLUT_32.png
-  artifactKey: Guid(d5c6ccc7afc494348b855f98fc962b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/NeutralLUT_32.png using Guid(d5c6ccc7afc494348b855f98fc962b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ffb8c8bf96dd177d8300685c5e4eb') in 0.054743 seconds
-  Import took 0.061473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudSolidAngleIcon.png
-  artifactKey: Guid(c54a785feceb0324697c375269420738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudSolidAngleIcon.png using Guid(c54a785feceb0324697c375269420738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b4676714fa17cf8ad4c7418ddec450') in 0.026882 seconds
-  Import took 0.034521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
-  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0eb636fb2986d6b03f1aae599bad1a') in 0.110206 seconds
-  Import took 0.117150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Movie5LUT_32.png
-  artifactKey: Guid(ea39d80b5b60f794d8068d5f5f6d60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Movie5LUT_32.png using Guid(ea39d80b5b60f794d8068d5f5f6d60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aef8aef6cc30883a0c8ea8f40cce83') in 0.044486 seconds
-  Import took 0.050458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Movie6LUT_32.png
-  artifactKey: Guid(728c1dd3c933f914799214ff425d9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Movie6LUT_32.png using Guid(728c1dd3c933f914799214ff425d9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d83703536cdded52abd72ca7a2e71d') in 0.044056 seconds
-  Import took 0.049970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Dream_LUT_32.png
-  artifactKey: Guid(f1c46c6507daff741a6c05f85d9a9549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Dream_LUT_32.png using Guid(f1c46c6507daff741a6c05f85d9a9549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ada94d26509ded7591baefc93638092') in 0.053072 seconds
-  Import took 0.059241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
-  artifactKey: Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif using Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdfdbeeb3828ab7fbac695cd3d1708c') in 0.058344 seconds
-  Import took 0.065732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9926ca245c80eecea6053ede2fce00') in 0.023909 seconds
-  Import took 0.031297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Movie3LUT_32.png
-  artifactKey: Guid(e51ce04660a5e9549878f9536345175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Movie3LUT_32.png using Guid(e51ce04660a5e9549878f9536345175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a6c99d1e90de54e191432553e20db') in 0.099401 seconds
-  Import took 0.107128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudCylinderIcon.png
-  artifactKey: Guid(753c5039001e6324f850e9ca1d879620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudCylinderIcon.png using Guid(753c5039001e6324f850e9ca1d879620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a4c68be116f0c03e8a277c4c37feea') in 0.024730 seconds
-  Import took 0.032631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21b35d62288d74c903a6479f762b9e8') in 0.131912 seconds
-  Import took 0.140512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/LomonewLUT_32.png
-  artifactKey: Guid(2f08cb72f46a2134b974e39afc2111a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/LomonewLUT_32.png using Guid(2f08cb72f46a2134b974e39afc2111a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddded381aefd32515193c719bef6b7bd') in 0.029790 seconds
-  Import took 0.316560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
-  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1532b68018746c72b2745dd080814f') in 0.047303 seconds
-  Import took 0.059816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a36f5e770e358b0507fa7afc9a1e03') in 0.047255 seconds
-  Import took 0.054101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudCurveSimpleIcon.png
-  artifactKey: Guid(bdab03020dfda18409e25fe617be66cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudCurveSimpleIcon.png using Guid(bdab03020dfda18409e25fe617be66cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0f66887e5c15f8de7dceaf65c706bd') in 0.035923 seconds
-  Import took 0.046478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
-  artifactKey: Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif using Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb366cd38e2d39ab79034b530659f47f') in 0.045248 seconds
-  Import took 0.366511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007851 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/Dark2LUT_32.png
-  artifactKey: Guid(b2be66e1edb1a584190484224c0f9c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/Dark2LUT_32.png using Guid(b2be66e1edb1a584190484224c0f9c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e445d4512e84d658b9ec69560d0be') in 0.418318 seconds
-  Import took 0.429776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Depression_LUT_32.png
-  artifactKey: Guid(a96fdbf9452b52a4399c16e27dae2e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Depression_LUT_32.png using Guid(a96fdbf9452b52a4399c16e27dae2e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67c798dd71c8d9502ae927b5dbde975') in 0.099004 seconds
-  Import took 0.107009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
-  artifactKey: Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif using Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b5dfbebc7e61d7144f4555cc37a46') in 0.324515 seconds
-  Import took 0.467801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
-  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c6a851e9b382466dc0ee9ba75031c8') in 0.046702 seconds
-  Import took 0.111669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Aqua_LUT_32.png
-  artifactKey: Guid(2026e7eab3aea98479e823c4dbaba1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Aqua_LUT_32.png using Guid(2026e7eab3aea98479e823c4dbaba1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e02cca80241b804924cd0fbc98eb2e1') in 0.044425 seconds
-  Import took 0.056215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc111e43666c90532df0dbb534af141e') in 0.526536 seconds
-  Import took 0.541342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000949 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudPinchIcon.png
-  artifactKey: Guid(580df259607fbe44a82ab702c534d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudPinchIcon.png using Guid(580df259607fbe44a82ab702c534d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd2c036d5c0c747e534c0abbeb85eb4') in 0.051402 seconds
-  Import took 0.062906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/NeutralLUT_32.png
-  artifactKey: Guid(2099cc51c9653b24fae64e278e6131d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/NeutralLUT_32.png using Guid(2099cc51c9653b24fae64e278e6131d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902357c9de2cdb87fa2a1a17d53082f4') in 0.119513 seconds
-  Import took 0.130817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001055 seconds.
-  path: Assets/MudBun/Examples/HDRP/Alpaca/Strokes Texture.png
-  artifactKey: Guid(03ea603feaf2d9440ba94db8cd87c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Alpaca/Strokes Texture.png using Guid(03ea603feaf2d9440ba94db8cd87c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513a89a58c829364c0e05284b20f0822') in 0.037339 seconds
-  Import took 0.044403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000653 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
-  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a682feee97001735116c0915aba1da') in 1.773923 seconds
-  Import took 2.102173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003068 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
-  artifactKey: Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif using Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61ea3aefd5f30ad15ec10fce282efb7') in 0.074982 seconds
-  Import took 0.088723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudTorusIcon.png
-  artifactKey: Guid(a7403ca4a6a2b974cbbc288426bcdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudTorusIcon.png using Guid(a7403ca4a6a2b974cbbc288426bcdca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1c67692438dc3d71d58e2ac298a6a3') in 0.087650 seconds
-  Import took 0.105411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc06a9b15404465ff6c664762c8e46') in 0.089268 seconds
-  Import took 0.103311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010041 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Vintage_LUT_32.png
-  artifactKey: Guid(51efbb6a72c99264ba582bae5a5df94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Vintage_LUT_32.png using Guid(51efbb6a72c99264ba582bae5a5df94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7009552f375c7a851dd5786e38d688bf') in 0.123014 seconds
-  Import took 0.140562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001996 seconds.
-  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
-  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9578c323581b906db88c031c1b6f070') in 0.218520 seconds
-  Import took 0.235276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/ViceLUT_32.png
-  artifactKey: Guid(0b7a8fb5d348d264d856ab650ef6161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/ViceLUT_32.png using Guid(0b7a8fb5d348d264d856ab650ef6161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3694622bad2f428853c42f30e1ac4e6a') in 0.135124 seconds
-  Import took 0.152789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002946 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
-  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3164c0a03cab7050e1ebd276392651b') in 0.056760 seconds
-  Import took 0.076781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Dark2LUT_32.png
-  artifactKey: Guid(0263eb4d73d5b4840b45e083e461e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Dark2LUT_32.png using Guid(0263eb4d73d5b4840b45e083e461e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8614ec827108d3ec8ad6f9a4e812209') in 0.082191 seconds
-  Import took 0.097792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002653 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
-  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e22b07e468f9cacbd5a64c404b1ca6') in 0.499419 seconds
-  Import took 0.515244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/AutumnLUT_32.png
-  artifactKey: Guid(57863826664884e46b1672bd8959eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/AutumnLUT_32.png using Guid(57863826664884e46b1672bd8959eb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a59d0b352d7fa762f90ce2f520544b') in 0.176827 seconds
-  Import took 0.200420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/BluePro_LUT_32.png
-  artifactKey: Guid(876fb95da366a7242a1cad5a3b11d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/BluePro_LUT_32.png using Guid(876fb95da366a7242a1cad5a3b11d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cceff156c199d63fad87577ed39127e') in 0.097632 seconds
-  Import took 0.110855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/URP PostProcessing Profiles/Textures/sky.png
-  artifactKey: Guid(ee6d29ba32da74c4ca18117ff3e2855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Textures/sky.png using Guid(ee6d29ba32da74c4ca18117ff3e2855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad36c3910d3cb40c5ffec87146231850') in 1.685295 seconds
-  Import took 1.706535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23dc4c0bfa92b210f5851a9944a3b2f') in 0.128986 seconds
-  Import took 0.137900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/MudBun/Examples/HDRP/Fog Reveal/Fog Texture.png
-  artifactKey: Guid(f46a28c516e78cf4291583f8a1279301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Fog Reveal/Fog Texture.png using Guid(f46a28c516e78cf4291583f8a1279301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7c3c65d2fa3abe4ec4047b360e519a') in 0.026988 seconds
-  Import took 0.042507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/MudBun/Examples/Built-In RP/Twister/Lighting/ReflectionProbe-0.exr
-  artifactKey: Guid(2846bfa90c811074682730eb4a6bccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/Built-In RP/Twister/Lighting/ReflectionProbe-0.exr using Guid(2846bfa90c811074682730eb4a6bccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a2685f5e84c1996018cd85c4bc231a') in 0.314361 seconds
-  Import took 0.330420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035420 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec15f49c4772aad7a8959ec4132960') in 0.099517 seconds
-  Import took 0.159874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001509 seconds.
-  path: Assets/MudBun/Examples/HDRP/Sky Island/Strokes Texture.png
-  artifactKey: Guid(08eaa64b778e995488e9974385c627b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Sky Island/Strokes Texture.png using Guid(08eaa64b778e995488e9974385c627b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4518ea247af1899478ac51b5542a501e') in 0.043395 seconds
-  Import took 0.057030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003635 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/PurpleLUT_32.png
-  artifactKey: Guid(805b63fa736fa1745b7bdd182dfbb3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/PurpleLUT_32.png using Guid(805b63fa736fa1745b7bdd182dfbb3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c51d2b8928eb431b0c2b985c0734cc') in 0.185828 seconds
-  Import took 0.393805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007309 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488b02d1a46ebdcea76b05beda21ff9e') in 0.218228 seconds
-  Import took 0.227924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/HDR_LUT_32.png
-  artifactKey: Guid(20533833ab333f146a6016bd406ad08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/HDR_LUT_32.png using Guid(20533833ab333f146a6016bd406ad08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad5b71137b8aab7bc62b38265cd90b') in 0.067318 seconds
-  Import took 0.081218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/MudBun/Texture/Leaf.png
-  artifactKey: Guid(58fd09bd92e861b4f869f886d8d5044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Texture/Leaf.png using Guid(58fd09bd92e861b4f869f886d8d5044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883bf32d77b0a10cb77844fc856e4a1b') in 0.040691 seconds
-  Import took 0.048472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/MudBun/Texture/Brush Strokes.png
-  artifactKey: Guid(7266c0a29bb408947943e793734128f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Texture/Brush Strokes.png using Guid(7266c0a29bb408947943e793734128f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1206ffdbcfb7dedfc24007d15e22a21c') in 0.041701 seconds
-  Import took 0.053839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/MudBun/Script/Editor/Editor Resources/MudRendererIcon.png
-  artifactKey: Guid(e969af6b44048034ba1ed25990d13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Script/Editor/Editor Resources/MudRendererIcon.png using Guid(e969af6b44048034ba1ed25990d13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a247cd72ac9bf4ddd3baf9acffe618') in 0.034804 seconds
-  Import took 0.042256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Old2_LUT_32.png
-  artifactKey: Guid(fa587301b377b4949b2d21bc4311d2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Old2_LUT_32.png using Guid(fa587301b377b4949b2d21bc4311d2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f67b249446d418410c523c1800b019') in 0.073917 seconds
-  Import took 0.083522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Cool_LUT_32.png
-  artifactKey: Guid(459d2b8ac185b76488f91d4e57521b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Cool_LUT_32.png using Guid(459d2b8ac185b76488f91d4e57521b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181de51cb9f44de52c40034b3ea1edd') in 0.082213 seconds
-  Import took 0.095841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/NightLUT_32.png
-  artifactKey: Guid(d1e61950ca7e1fd42a600c616bde6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/NightLUT_32.png using Guid(d1e61950ca7e1fd42a600c616bde6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d2207a415201443022cfa38df6dc0') in 0.491090 seconds
-  Import took 0.501907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
-  artifactKey: Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif using Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c700bc9d21be160b7ad69bbe7a4dcfda') in 0.040146 seconds
-  Import took 0.125540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
-  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f7619a7a70b02d46bb4859a8023617') in 0.023949 seconds
-  Import took 0.237197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002878 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
-  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb6646123d1151c2241fd4825caf457') in 0.125782 seconds
-  Import took 0.235577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Heavy2_LUT_32.png
-  artifactKey: Guid(2610fbd66d85ec34387a016b7ad14cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Heavy2_LUT_32.png using Guid(2610fbd66d85ec34387a016b7ad14cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a993890750a9d19903ae564d0e75ec03') in 0.294827 seconds
-  Import took 0.567744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006279 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
-  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbd547c616277419c1b794ceff8a419') in 0.287001 seconds
-  Import took 0.297750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000956 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/NeutralLUT.png
-  artifactKey: Guid(f908f50288773df45939184509b6ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/NeutralLUT.png using Guid(f908f50288773df45939184509b6ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf19504091102e7d8d763e3d0e6e2809') in 0.200373 seconds
-  Import took 0.209248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/MovieLUT_32.png
-  artifactKey: Guid(20f56a28e0234ff4f8f0aa8e25eabdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/MovieLUT_32.png using Guid(20f56a28e0234ff4f8f0aa8e25eabdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834b399215d90b7b9d21ae11f14e1a20') in 0.089048 seconds
-  Import took 0.097884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/MovieLUT_32.png
-  artifactKey: Guid(c69fcc884b9e70a4f997836a84ac9909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/MovieLUT_32.png using Guid(c69fcc884b9e70a4f997836a84ac9909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc39fc539ba197a666fd54eb033476f') in 0.054187 seconds
-  Import took 0.061672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/CrazyLUT_32.png
-  artifactKey: Guid(0df454294a181dc4f8886b0c2d2599c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/CrazyLUT_32.png using Guid(0df454294a181dc4f8886b0c2d2599c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1892610611a3eca8879be00fe104a4') in 0.051329 seconds
-  Import took 0.056455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
-  artifactKey: Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif using Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d6cd5bca92dbd732bd87c939c474fb') in 0.076073 seconds
-  Import took 0.085097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
-  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de443aa919821d491dc855e8700ff937') in 0.036130 seconds
-  Import took 0.057573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/URP PostProcessing Profiles/Luts/horror3LUT_32.png
-  artifactKey: Guid(2af015f13c3e45b4783402c39e2dbef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/Luts/horror3LUT_32.png using Guid(2af015f13c3e45b4783402c39e2dbef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be59503aa4f0a2ccd79b1392a0f02b02') in 0.197291 seconds
-  Import took 0.837741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001495 seconds.
-  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
-  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b7c7af4ce95023c9c71159e6aa185') in 0.277621 seconds
-  Import took 0.295608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
-  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641f1e17a93f38de2b654527e7ce7a7a') in 0.208300 seconds
-  Import took 0.219076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061782 seconds.
-  path: Assets/MudBun/Examples/HDRP/Dark Noise Cube/dirty lense texture.jpg
-  artifactKey: Guid(969c4d19df5efee4e8cf41dc032f68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Dark Noise Cube/dirty lense texture.jpg using Guid(969c4d19df5efee4e8cf41dc032f68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a2b458179ef6f815912cd811d884cd') in 0.377924 seconds
-  Import took 0.434896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012996 seconds.
-  path: Assets/URP PostProcessing Profiles/GestLUTSPack/Warm_LUT_32.png
-  artifactKey: Guid(909f4afd20517e94dafe0b9c56fbbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP PostProcessing Profiles/GestLUTSPack/Warm_LUT_32.png using Guid(909f4afd20517e94dafe0b9c56fbbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c315fb42c91ecdb5a0ea5e744a9974') in 0.209632 seconds
-  Import took 0.230181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.168843 seconds.
-  path: Assets/MudBun/Examples/HDRP/Preset Render Material Gallery/Brush Strokes Splat.mat
-  artifactKey: Guid(aa16168be67c48842a6507aab8ba806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Preset Render Material Gallery/Brush Strokes Splat.mat using Guid(aa16168be67c48842a6507aab8ba806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2907
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2907
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
- -> (artifact id: '450821f59222c2268e3196fe938be9d1') in 0.820489 seconds
-  Import took 0.826888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/MudBun/Material/Built-In RP/Presets/Stopmotion Splat Render Material (Built-In RP).mat
-  artifactKey: Guid(af5e4615cbc4bba43b373e267375c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/Built-In RP/Presets/Stopmotion Splat Render Material (Built-In RP).mat using Guid(af5e4615cbc4bba43b373e267375c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a8c5f1155ff979abd61460bda0e6ab') in 0.056247 seconds
-  Import took 0.063955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/MudBun/Material/URP/Presets/Stopmotion Splat Render Material (URP).mat
-  artifactKey: Guid(c5c8b187e5c4e0246a5502bc1dbf033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/URP/Presets/Stopmotion Splat Render Material (URP).mat using Guid(c5c8b187e5c4e0246a5502bc1dbf033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dfb24f4eafa1f09e8b44ad5a82716b') in 2.808233 seconds
-  Import took 2.818869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/MudBun/Material/HDRP/Presets/Stopmotion Splat Render Material (HDRP).mat
-  artifactKey: Guid(47f5091878ee61945a2a5e18abc7cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/HDRP/Presets/Stopmotion Splat Render Material (HDRP).mat using Guid(47f5091878ee61945a2a5e18abc7cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2982
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2982
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
- -> (artifact id: '7881947e4a3b7715a8fabf7a68ccbe5f') in 0.179748 seconds
-  Import took 0.192091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/MudBun/Amplify Shader Editor/Mud Splat.asset
-  artifactKey: Guid(1947d49d4d7bb92419410ba0439aa2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Amplify Shader Editor/Mud Splat.asset using Guid(1947d49d4d7bb92419410ba0439aa2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475886b60b8645bc8f5822ba4cf1f68b') in 0.020186 seconds
-  Import took 0.030498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/MudBun/Examples/HDRP/Preset Render Material Gallery/Stopmotion Splat.mat
-  artifactKey: Guid(f6ddfd1d8c48ce149b1aa86e8ba469b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Examples/HDRP/Preset Render Material Gallery/Stopmotion Splat.mat using Guid(f6ddfd1d8c48ce149b1aa86e8ba469b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2982
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1774
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Stopmotion Splat (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2982
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
- -> (artifact id: '77ae06c3697fa69299c31acae0b8e768') in 0.670004 seconds
-  Import took 0.681202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/MudBun/Material/URP/Presets/Brush Strokes Splat Render Material (URP).mat
-  artifactKey: Guid(3d92281c3db54e64db891f113beab96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/URP/Presets/Brush Strokes Splat Render Material (URP).mat using Guid(3d92281c3db54e64db891f113beab96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87625a58cf5856e25fc104b2325f36e7') in 0.073273 seconds
-  Import took 0.087204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/MudBun/Material/Built-In RP/Presets/Brush Strokes Splat Render Material (Built-In RP).mat
-  artifactKey: Guid(f4233ff21a4f00b4f8057255c7c7f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/Built-In RP/Presets/Brush Strokes Splat Render Material (Built-In RP).mat using Guid(f4233ff21a4f00b4f8057255c7c7f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fff0d08ce3440de17791a60e76fd7b8') in 0.094808 seconds
-  Import took 0.112819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/MudBun/Material/HDRP/Presets/Brush Strokes Splat Render Material (HDRP).mat
-  artifactKey: Guid(d5fa9bcf782d3ef40b95b0b842e05a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MudBun/Material/HDRP/Presets/Brush Strokes Splat Render Material (HDRP).mat using Guid(d5fa9bcf782d3ef40b95b0b842e05a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2907
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 1735
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
-Shader error in 'MudBun/Mud Splat Single-Textured (HDRP)': Couldn't open include file 'Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/FragInputs.hlsl'. at line 2907
-
-Compiling Vertex program with _ALPHATEST_ON
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
-Disabled keywords: _SURFACE_TYPE_TRANSPARENT WRITE_NORMAL_BUFFER WRITE_MSAA_DEPTH INSTANCING_ON _DOUBLESIDED_ON _BLENDMODE_ALPHA _BLENDMODE_ADD _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
-
- -> (artifact id: 'ecb54c777dd23655d68b045379da0b25') in 0.113600 seconds
-  Import took 0.124638 seconds .
-
+Total: 6.158300 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.521300 ms MarkObjects: 3.289800 ms  DeleteObjects: 1.847500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FluffTest.unity
+  artifactKey: Guid(a24a4340951b1964f9ed9427a8483313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FluffTest.unity using Guid(a24a4340951b1964f9ed9427a8483313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea36fabdead80e8b3080afe65d3654a') in 0.029888 seconds
+  Import took 0.037049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.692 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3105.
+Total: 10.073700 ms (FindLiveObjects: 1.738900 ms CreateObjectMapping: 1.020400 ms MarkObjects: 4.659500 ms  DeleteObjects: 2.652100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1134.119308 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904f00b49911cb4fd7c9bfb3c7e4dcc6') in 0.524603 seconds
+  Import took 0.539592 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.262 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3109.
+Total: 8.740100 ms (FindLiveObjects: 1.096100 ms CreateObjectMapping: 0.575400 ms MarkObjects: 4.854300 ms  DeleteObjects: 2.211600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.841 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3112.
+Total: 8.076800 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.337300 ms MarkObjects: 4.486900 ms  DeleteObjects: 2.707600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.947888 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f25779afc7bddce9beabcd15365874') in 0.010027 seconds
+  Import took 0.017558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3115.
+Total: 7.305600 ms (FindLiveObjects: 0.648100 ms CreateObjectMapping: 0.315000 ms MarkObjects: 3.651200 ms  DeleteObjects: 2.688800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 8.101700 ms (FindLiveObjects: 1.339200 ms CreateObjectMapping: 0.405100 ms MarkObjects: 3.446000 ms  DeleteObjects: 2.908500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.653253 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd003bf31e8625f0dd8e00c71cdf8a1c4') in 0.009630 seconds
+  Import took 0.019366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002667 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd003bf31e8625f0dd8e00c71cdf8a1c4') in 0.005367 seconds
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.466929 seconds.
+  path: Assets/MudBunShellPlacer.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MudBunShellPlacer.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f542a470ad79a6e296c32ae7f20cbe7b') in 0.020743 seconds
+  Import took 0.030799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019459 seconds.
+  path: Assets/MudBunShellPlacer.cs
+  artifactKey: Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MudBunShellPlacer.cs using Guid(da859f59444bd5649a3d169fb133c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f542a470ad79a6e296c32ae7f20cbe7b') in 0.004491 seconds
+  Import took 0.021872 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 6.951000 ms (FindLiveObjects: 0.832700 ms CreateObjectMapping: 0.391300 ms MarkObjects: 3.245700 ms  DeleteObjects: 2.478300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.768 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 6.752200 ms (FindLiveObjects: 0.569200 ms CreateObjectMapping: 0.291400 ms MarkObjects: 3.232300 ms  DeleteObjects: 2.657000 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 4.626800 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.272100 ms MarkObjects: 2.372500 ms  DeleteObjects: 1.611300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.288 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 12.485900 ms (FindLiveObjects: 0.646000 ms CreateObjectMapping: 0.402900 ms MarkObjects: 8.459400 ms  DeleteObjects: 2.973700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.378 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 7.471700 ms (FindLiveObjects: 0.751300 ms CreateObjectMapping: 0.333400 ms MarkObjects: 3.320700 ms  DeleteObjects: 3.037700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
