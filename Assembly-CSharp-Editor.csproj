@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Editor\BloomGraphDrawer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Editor\BloomEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -59,10 +59,48 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\MudBunShellPlacer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\TemporalReprojection.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_MeshExtrusion.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\EffectBase.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_FPSDisplay.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SubShowcase.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\Bloom\Bloom.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_SetInteractiveShaderEffects.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_AssetManager.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\FrustumJitter.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_RotatorDisplay.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\Extensions.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_BallPlayer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\VelocityBuffer.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Extra\AA\Scripts\VelocityBufferTag.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_FxOnMouseClick.cs" />
+    <Compile Include="Assets\BruteForce-GrassShader\Scripts\BF_RainActivator.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\BruteForce-GrassShader\Extra\VertexColor.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\BFGrassTerrain.shader" />
      <None Include="Assets\URP PostProcessing Profiles\ForAmbient Occlusion\Readme.txt" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\Debug\BFGrassGeoDebug.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\AA\Shaders\IncNoise.cginc" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\BFGrassMobile.shader" />
      <None Include="Assets\URP PostProcessing Profiles\ReadmeFIRST!.txt" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\BFGrassLiteURP.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\BFGrassTerrainURP.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\AA\Shaders\IncDepth.cginc" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\Debug\BFGrassMobileDebugURP.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\Debug\BFGrassMobileDebug.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\Bloom\Shader\Bloom.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\Bloom\Shader\Bloom.cginc" />
+     <None Include="Assets\BruteForce-GrassShader\ReadMe.txt" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\BFGrassURP.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\BFGrass.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\AA\Shaders\TemporalReprojection.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\SkyboxGradient.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\AA\LICENSE.txt" />
+     <None Include="Assets\BruteForce-GrassShader\Extra\AA\Shaders\VelocityBuffer.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\Standard\BFGrassLite.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\Debug\BFGrassGeoDebugURP.shader" />
+     <None Include="Assets\BruteForce-GrassShader\Shaders\URP\BFGrassMobileURP.shader" />
     <Reference Include="UnityEngine">
       <HintPath>G:\Unity Editors\2020.3.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
